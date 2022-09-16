@@ -1,0 +1,34 @@
+<view class="box1">
+  <view style="margin: 5%;"></view>
+  <view class="title">书架</view>
+  <view style="margin: 5%;"></view>
+<view>
+<view  class="test-1">
+  <view wx:for="{{subType1}}" wx:key="ind" data-id="{{item.id}}">
+      <navigator url="/pages/detail/detail">
+        <view class="test-11">
+          <image src="{{item.img}}" mode="aspectFill"></image>          
+        </view>
+        </navigator>
+        <navigator url="/pages/detail/detail">
+        <view class="test-12">{{item.title}}</view>
+        <view class="test-13">{{item.content}}</view>
+      </navigator>   
+  </view>  
+</view>
+<view style="margin: 5%;"></view>
+<view  class="test-1">
+  <view wx:for="{{subType2}}" wx:key="ind" data-id="{{item.id}}">
+      <navigator url="/pages/index/index">
+        <view class="test-11">
+          <image src="{{item.img}}" mode="aspectFill"></image>          
+        </view>
+        <view class="test-12">{{item.title}}</view>
+        <view class="test-13">{{item.content}}</view>
+      </navigator>   
+  </view>  
+</view>
+<view style="margin: 5%;"></view>
+</view>
+ <view style="margin: 5%;"></view>
+</view>

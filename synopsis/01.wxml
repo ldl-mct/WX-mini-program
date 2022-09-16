@@ -1,0 +1,26 @@
+<view class="img">
+<image src="http://127.0.0.1:8090/images/m2.jpg" 	mode="widthFix"></image>
+</view>
+
+<view class="pages">
+  <view class="item" >
+  <view wx:for="{{tiezi1}}" wx:key="ind" wx:for-item="ite">
+  <navigator url="/pages/synopsis/synopsis">
+  <view class="item-box">
+    <image src="{{ite.img}}" mode="widthFix"></image>
+    <text class="t-title">标题：</text>
+    <text class="t-title1">{{ite.title}}</text>
+  </view></navigator>
+  </view>
+  </view>
+  <view class="item" >
+  <view wx:for="{{tiezi2}}" wx:key="ind" wx:for-item="ite1">
+  <navigator url="/pages/synopsis/synopsis">
+  <view class="item-box">
+    <image src="{{ite1.img}}" mode="widthFix"></image>
+    <text class="t-title">标题：</text>
+    <text class="t-title1">{{ite1.title}}</text>
+  </view></navigator>
+  </view>
+  </view>
+</view>

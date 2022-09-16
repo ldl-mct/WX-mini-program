@@ -1,0 +1,82 @@
+/* pages/a/a.wxss */
+
+.test{
+  /* border: 1px solid powderblue; */
+  display: flex;
+  flex-flow: nowrap;
+}
+.test1 {
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  margin-left: 10rpx;
+  flex: 0 0 100px;
+}
+.lisi {
+  font-size: 25rpx;
+  color: rgb(255, 255, 255);
+  margin-bottom: 50rpx;
+  margin-left: 20rpx;
+}
+.test image{
+  width: 190rpx;
+  height: 230rpx;
+}
+.test-1 {
+  display: flex;
+
+}
+.test-11 {
+  font-size: 25rpx;
+  margin-top: 10rpx; 
+  margin-bottom: 10rpx; 
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  flex: 0 0 100px;
+}
+.test-11 image{
+  border-radius: 5%;
+  width: 205rpx;
+  height: 280rpx;
+}
+.test-12 {
+  color: #ffffff;
+  font-size: 35rpx;
+  margin-bottom: 10rpx; 
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  flex: 0 0 100px;
+}
+.test-13 {
+  color: rgb(179, 182, 184);
+  font-size: 28rpx;
+  margin-bottom: 10rpx; 
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  flex: 0 0 100px;
+}
+.title{
+  color: #ffffff;
+  font-size: 50rpx;
+  margin-left: 35%;
+}
+.title1{
+  color: #030303;
+  font-size: 40rpx;
+  margin-left: 2%;
+}
+.box1{
+  margin-left: 3%;
+  width: 90%;
+  border-radius: 2%;
+  background-image: linear-gradient(rgba(19, 7, 180, 0.8), rgba(34, 46, 87, 0.9)),url("http://127.0.0.1:8090/images/shou1.jpg");
+  padding: 2%;
+  /* border: 3px solid rgb(51, 62, 63); */
+}
+.box-t{
+  margin-left: 3%;
+  width: 90%;
+  border-radius: 4.5%;
+  background-image: linear-gradient(rgba(30, 18, 192, 0.8), rgba(24, 42, 102, 0.9)),url("http://127.0.0.1:8090/images/shou1.jpg");
+  padding-top: 3%;
+  border: 3px solid rgb(255, 255, 255);
+}

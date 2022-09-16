@@ -1,0 +1,43 @@
+<!-- 首页轮番 -->
+<swiper autoplay circular indicator-dots indicator-color="rgba(0,55,255,.5)" indicator-active-color="#fff">
+  <swiper-item>
+  <view>
+    <image mode="aspectFill" src="http://127.0.0.1:8090/images/shouye/IMG_1236(20220530-220853).JPG" />
+  </view>
+  </swiper-item>
+  <swiper-item>
+  <view>
+    <image mode="aspectFill" src="http://127.0.0.1:8090/images/shou1.jpg" />
+  </view>
+  </swiper-item>
+  <swiper-item>
+  <view>
+    <image mode="aspectFill" src="http://127.0.0.1:8090/images/shouye/IMG_0917(20220328-234428).PNG" />
+  </view>
+  </swiper-item>
+</swiper>
+<view class="box">
+<view class="biaoqian">
+<view class="name">| 双向渡劫·青春集</view>
+<view class="guanzhu" bindtap="checkType" >
+  <text  bindtap="guanzhu">关注</text>
+</view>
+</view>
+<view class="jianjie">林俊皓，裴然等角色们青春时期关于青涩暧昧，友情，亲情的轻松治愈日常故事</view>
+<view class="zuoze">
+  <image class="touxiang" src="http://127.0.0.1:8090/images/tiezi/tie9.png" mode="aspectFill"></image>
+  <view>雁飞</view>
+</view>
+</view>
+<!-- 目录 -->
+<view wx:for="{{zj}}" wx:key="ind" wx:for-item="ite">
+  <navigator url="/pages/a/01">
+<view class="mulu">
+  <image src="{{ite.img}}" mode="aspectFill"></image>
+  <view class="tit">
+  <view class="title">{{ite.title}}</view>
+  <view class="title1">{{ite.title1}}</view>
+  </view>
+</view>
+</navigator>
+</view>

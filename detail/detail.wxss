@@ -1,0 +1,77 @@
+/* pages/detail/detail.wxss */
+swiper{
+  width: 100%;
+}
+swiper-item{
+  box-sizing: border-box;
+  opacity: .9;
+}
+swiper-item image{
+  width: 100%;
+}
+.box{
+  padding-left: 3%;
+}
+.name{
+  font-size: 40rpx;
+}
+.zuoze{
+  padding: 2%;
+  display: flex;
+  flex-flow: nowrap;
+  /* border:solid rgb(141, 93, 93); */
+}
+.biaoqian{
+  padding: 2%;
+  display: flex;
+}
+.guanzhu{
+  height: 50rpx;
+  width: 80rpx;
+  margin-left: 40%;
+  background-color: hsl(249, 46%, 89%);
+  border-radius: 20rpx;
+}
+
+.guanzhu text{
+  margin-left: 15%;
+  font-size: 25rpx;
+  font-weight: lighter;
+}
+.zuoze image{
+  border-radius: 90%;
+  width: 80rpx;
+  height: 80rpx;
+}
+.zuoze view{
+  padding: 2%;
+}
+.jianjie{
+  padding: 3%;
+  font-weight: lighter;
+  font-size: 30rpx;
+}
+
+.active{
+  border-left: 10rpx solid rgb(46, 130, 163);
+  background-color: rgb(179, 94, 94);
+}
+.mulu{
+  display: flex;
+  padding: 4%;
+}
+.mulu image{
+  width: 250rpx;
+  height: 150rpx;
+  border-radius: 9%;
+}
+.tit{
+  padding-left: 5%;
+}
+.title{
+  font-size: 30rpx;
+}
+.title1{
+  font-size: 25rpx;
+  color: rgb(99, 87, 87);
+}
